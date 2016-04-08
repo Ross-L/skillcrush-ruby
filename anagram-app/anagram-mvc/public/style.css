@@ -1,0 +1,33 @@
+body {
+	background:#f8f8f8;
+	background:url('images/alphabet.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: arial;
+}
+
+.container {
+    background-color: transparent;
+    margin: 15px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    font-size: medium;
+    list-style: none; 
+}
+
+.error {
+    color: red;
+}
+
+
+
+

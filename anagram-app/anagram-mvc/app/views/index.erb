@@ -1,0 +1,14 @@
+
+<div class='well'>
+<h1>Anagrams</h1>
+
+<% if @error.present? %>
+  <p class='error'><%= "#{@error}" %></p>
+<% end %>
+
+    <form action='/' method='post' class='form'>
+            <label for='word'>Enter a 3 letter word</label>
+            <input name='word' type='text'>
+            <input type='submit' class='btn'>
+    </form>    
+</div>
